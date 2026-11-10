@@ -11,5 +11,5 @@ hlavný cieľ: spravovať rodinný rozpočet, kontrolovať svoju spotrebu a vyda
 hlavný cieľ: spravovať rodinný rozpočet, kontrolovať spotrebu, zistiť, kde putujú financie a kde sa dá ušetriť, zabezpecit stabilitu a financnu rezervu pre rodinu
 
 ### Slovník pojmov:
-- Výdaj - 
+- Výdavok - 
 - Príjem - 
