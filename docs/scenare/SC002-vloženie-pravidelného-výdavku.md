@@ -21,7 +21,7 @@ ak pravidelný: dátum trvania do
 ....
 ```
 - Používateľ klikne na tlačidlo uložiť 
-- Systém zistí, že ide o pravidelný nvýdavok ak je vybratý **typ: výdavok** a je nastavený **druh: pravidelný**
+- Systém zistí, že ide o pravidelný výdavok ak je vybratý **typ: výdavok** a je nastavený **druh: pravidelný**
 - Používateľ uloží pravidlo.
 - Systém automaticky zapíše výdavok do výdavkov domácnosti podľa pravidiel (dátum od do, frekvencia)
 - Koniec scenáru
