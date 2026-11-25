@@ -12,21 +12,21 @@
 - Zadá údaje:
 ```
 sumu: 50 
-kategóriu: 
-typ (výdavok/príjem)
+kategóriu(zoznam pre jednorázový výdavok):** napr. Potraviny, Oblečenie, Drogéria, Reštaurácie / Kaviarne, Doprava / Pohonné hmoty, Zdravie / Lekáreň, Zábava / Voľný čas, Iné
 druh (jednorázový, pravidelný)
 dátum: aktuálny dátum (prípadne vlastný dátum)
 popis / poznámka (voliteľne)
 ....
 ```
 - Používateľ klikne na tlačidlo uložiť 
-- Systém zistí, že ide o jednorázový výdavok ak je vybratý **typ: výdavok** a je nastavený **druh: jednorázový**
-- Používateľ uloží záznam.
-- Systém jednorázovo zapíše výdavok do výdavkov domácnosti pre zvolený dátum
+- Systém zistí, že ide o jednorázový výdavok ak je nastavený **druh: jednorázový**
+- Používateľ uloží záznam
+- Systém jednorázovo zapíše výdavok do výdavkov domácnosti pre zvolený dátum a vybranú kategóriu
 - Koniec scenáru
 
 ## Alternatívne / chybové toky
 - Suma ≤ 0 → chybová hláška. Suma musí byť viac ako 0.
+- Používateľ nevyberie kategóriu zo zoznamu → kategória "nezadané"
+- Systém umožní zadať výdavok s budúcim dátumom alebo dátumom v minulosti (napr. očakávaný alebo zabudnutý výdavok).
 
 ## Otvorené otázky
-- Dátum začiatku v minulosti → systém umožní zadať príjem s budúcim dátumom (napr. očakávaný výdavok) alebo ho povolením obmedzí len na aktuálny/minulý dátum?qq
