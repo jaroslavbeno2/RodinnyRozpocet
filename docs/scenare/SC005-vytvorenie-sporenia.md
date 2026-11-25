@@ -15,11 +15,14 @@ názov sporenia:
 cieľová suma: 1000 (voliteľné)
 aktuálna suma / počiatočný vklad: 0
 cieľový dátum (voliteľné)
+druh: (jednorázový/pravidelný)
 kategória / účet
 
 ```
 - Používateľ klikne na tlačidlo uložiť 
 - Systém overí, či sú vyplnené povinné údaje a či je cieľová suma platná, prípadne vypočíta mesačnú čiastku, ak máme cieľový dátum.
+- Systém zistí, že ide o pravidelné sporenie ak je nastavený **druh: pravidelný**, vtedy sa zaeviduje do výdavkov ako "pravidelný výdavok v kategórií Sporenie"
+- Systém zistí, že ide o pravidelné sporenie ak je nastavený **druh: jednorázový**, vtedy sa zaeviduje do výdavkov ako "jednorázový výdavok v kategórií Sporenie"
 - Používateľ uloží pravidlo.
 - Systém vytvorí a uloží nové sporenie do zoznamu sporení domácnosti.
 - Koniec scenáru
@@ -29,4 +32,3 @@ kategória / účet
 - Nevyplnený názov sporenia → chybová hláška. Názov sporenia je povinný.
 
 ## Otvorené otázky
-- Bude možné k sporeniu priradiť automatické mesačné príspevky alebo sa čiastky budú pridávať iba manuálne?
