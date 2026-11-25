@@ -22,6 +22,7 @@ popis / poznámka (voliteľne)
 - Systém overí, či je zadaná suma menšia alebo rovná aktuálnemu zostatku vo zvolenom sporení.
 - Používateľ uloží transakciu.
 - Systém zníži aktuálnu sumu vo zvolenom sporení o zadanú sumu a zaznamená čerpanie.
+- Systém zaeviduje túto transakciu aj ako "jednorázový príjem v kategórií Sporenie"
 - Koniec scenáru
 
 ## Alternatívne / chybové toky
@@ -29,4 +30,3 @@ popis / poznámka (voliteľne)
 - Vybraná suma je vyššia ako aktuálny zostatok v sporení → chybová hláška. Nedostatočné prostriedky na sporení.
 
 ## Otvorené otázky
-- Bude sa vybratá suma automaticky prevádzať do bežného rozpočtu rodiny ako príjem, alebo ide len o interný prevod zo sporenia bez vplyvu na bežné príjmy?
