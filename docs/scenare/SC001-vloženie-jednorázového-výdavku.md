@@ -11,6 +11,7 @@
 - Používateľ zvolí "Vložiť výdavok".
 - Zadá údaje:
 ```
+názov: (voliteľné)
 sumu: 50 
 kategóriu(zoznam pre jednorázový výdavok):** napr. Potraviny, Oblečenie, Drogéria, Reštaurácie / Kaviarne, Doprava / Pohonné hmoty, Zdravie / Lekáreň, Zábava / Voľný čas, Iné
 druh (jednorázový, pravidelný)
