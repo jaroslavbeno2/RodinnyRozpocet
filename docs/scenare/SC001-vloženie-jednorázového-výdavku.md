@@ -27,7 +27,7 @@ popis / poznámka (voliteľne)
 
 ## Alternatívne / chybové toky
 - Suma ≤ 0 → chybová hláška. Suma musí byť viac ako 0.
-- Používateľ nevyberie kategóriu zo zoznamu → kategória "nezadané"
+- Používateľ nevyberie kategóriu zo zoznamu → kategória "Iné"
 - Systém umožní zadať výdavok s budúcim dátumom alebo dátumom v minulosti (napr. očakávaný alebo zabudnutý výdavok).
 
 ## Otvorené otázky
